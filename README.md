@@ -1,37 +1,68 @@
-# EXPERIMENT 07
-# Aim: To study and implement C++ Arrays and Strings
-# Apparatus Required:
-Visual Studio
+# 🔬 EXPERIMENT 07 – Arrays and Strings in C++
 
-# Theory:
+## 🎯 Aim
+To study and implement the concepts of **Arrays** and **Strings** in C++ through various operations and algorithms.
 
-Arrarys:
+---
 
-An array in C or C++ is a collection of items stored at contiguous memory locations and elements can be accessed randomly using indices of an array. They are used to store similar types of elements as in the data type must be the same for all elements. They can be used to store the collection of primitive data types such as int, float, double, char, etc of any particular type. To add to it, an array in C or C++ can store derived data types such as the structures, pointers, etc. There are two types of arrays:
+## 🧰 Apparatus Required
+- Visual Studio (or any standard C++ IDE or compiler)
 
-+ One Dimensional Array
-  
-+ Multi Dimensional Array
+---
 
-1. <ins>Multi-Dimensional Array</ins>: A multi-dimensional array is also known as array of arrays. Generally, we use a two-dimensional array. It is also known as the matrix. We use two indices to traverse the rows and columns of the 2D array
+## 📚 Theory
 
-Strings:
+### 📌 Arrays in C++
+An array in C++ is a collection of elements of the **same data type**, stored in **contiguous memory locations**. Elements are accessed using indices starting from 0.
 
-C++ string class internally uses character array to store character but all memory management, allocation, and null termination are handled by string class itself that is why it is easy to use.
+Arrays are useful for handling large amounts of data and implementing algorithms efficiently.
 
-The string data_type in C++ provides various functionality of string manipulation. They are:
+#### ✅ Types of Arrays:
+- **One-Dimensional Array** – linear collection of elements.
+- **Multi-Dimensional Array** – an array of arrays (e.g., 2D matrix).
 
-+ strcpy(): It is used to copy characters from one string to another string.
-+ strcat(): It is used to add the two given strings.
-+ strlen(): It is used to find the length of the given string.
-+ strcmp(): It is used to compare the two given string.
+#### 🧠 Common Algorithms with Arrays:
+- **Linear Search** – Search for an element one by one.
+- **Finding Min/Max** – Traverse the array to find smallest/largest element.
+- **Array Reversal** – Reverse the elements using swapping logic.
+- **Sorting** – (e.g., Bubble Sort or Selection Sort)
 
-# Implementation:
-The following cases demonstrate the usage of arrays and strings in C++
-+ Basic array decleration and printing
-+ Array element Search
-+ Min and Max Values in Arrays
-+ Reverse Array
+---
 
-# Conclusion:
-The Implentation of Strings and Array was done through various codes in C++
+### 📌 Strings in C++
+In C++, strings can be implemented using:
+- **Character arrays** (`char str[]`)
+- **`std::string` class** (preferred in modern C++)
+
+The `string` class handles memory allocation, copying, and null termination automatically.
+
+#### 🧰 Common String Functions:
+- `strcpy()` – Copies one string into another.
+- `strcat()` – Concatenates two strings.
+- `strlen()` – Returns the length of a string.
+- `strcmp()` – Compares two strings.
+
+---
+
+## 💻 Implementation
+
+The following cases demonstrate the usage of arrays and strings in C++:
+
+1. ✅ **Basic Array Declaration and Printing**
+2. 🔍 **Searching for an Element (Linear Search)**
+3. 📉 **Finding Minimum and Maximum Values**
+4. 🔁 **Reversing an Array**
+5. ✂️ **Using String Functions (`strcpy`, `strlen`, etc.)**
+6. 🔤 **Concatenating and Comparing Strings**
+
+> Each of these tasks will be implemented using standard C++ logic and simple algorithms like linear traversal and conditional checks.
+
+---
+
+## ✅ Conclusion
+
+Through this experiment, we implemented **arrays and strings** using C++ syntax and explored multiple operations using basic **algorithms**. The hands-on practice enhanced understanding of:
+
+- Array structure and traversal
+- String manipulation usi
+
