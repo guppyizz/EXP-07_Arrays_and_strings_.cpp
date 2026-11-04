@@ -6,10 +6,10 @@ A curated collection of C++ programs for practice and learning, designed with si
 
 ## 👨‍🎓 Student Information
 
-- **Name:** Updesh Arora  
-- **PRN:** 24070123124  
+- **Name:** Antriksh Tripathi
+- **PRN:** 24070123019  
 - **Branch:** ENTC  
-- **Class:** B-3
+- **Class:** A-1
 
 ---
 # 🔬 EXPERIMENT 07 – Arrays and Strings in C++
